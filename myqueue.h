@@ -14,7 +14,7 @@ typedef struct queue {
     int size;
 } Queue;
 
-Defining the functions that will be used in the queue.
+// Defining the functions that will be used in the queue.
 void initQueue(Queue *);
 int isEmpty(Queue *);
 int enqueue(Queue *, int);
